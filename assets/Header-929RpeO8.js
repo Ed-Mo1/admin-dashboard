@@ -1,0 +1,1 @@
+import{j as r}from"./index-Dvb-T1qa.js";const s=({title:a})=>r.jsx("div",{className:"bg-gray-800 bg-opacity-50 backdrop-blur-md  border-b border-b-gray-700",children:r.jsx("div",{className:"container py-4",children:r.jsx("h2",{className:"text-2xl capitalize",children:a})})});export{s as H};
