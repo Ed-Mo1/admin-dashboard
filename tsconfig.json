@@ -1,0 +1,15 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "strict": false, // Disable all strict type-checking options
+    "noImplicitAny": false, // Allow implicit `any` types
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "allowJs": true, // Allow JavaScript files to be compiled
+    "esModuleInterop": true, // Enable import/export interoperability between ES Modules and CommonJS
+    "forceConsistentCasingInFileNames": true // Ensure consistent casing in file names
+  }
+}
