@@ -53,7 +53,7 @@ const sidebarItems: SidebartItemType[] = [
 ];
 
 const Sidebar = () => {
-  const [isOpen, setIsOpen] = useState<boolean>(true);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
     <motion.div
       animate={{ width: isOpen ? 256 : 80 }}

@@ -31,12 +31,12 @@ const RevenueChart = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.2 }}
     >
-      <div className="flex justify-between items-center mb-6">
+      <div className="flex justify-between items-center mb-6 flex-wrap gap-5">
         <h2 className="text-xl font-semibold text-gray-100">
           Revenue vs Target
         </h2>
         <select
-          className="bg-gray-700 text-white rounded-md px-3 py-1 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="bg-gray-700 ms-auto text-white rounded-md px-3 py-1 focus:outline-none focus:ring-2 focus:ring-blue-500"
           value={selectedTimeRange}
           onChange={(e) => setSelectedTimeRange(e.target.value)}
         >
